@@ -31,14 +31,22 @@
     }
 
     section#login > div#imagem {
-        float: left; /*flutuador. coloca um elemento OU seja a imagem no lado ESQUERDO*/
+        float: right; /*flutuador. coloca um elemento OU seja a imagem no lado DIREITO*/
         width: 50%; /*imagem em 50%*/
         height: 100%;
     }
 
     sectio#login > div#formulario {
-        float: right; /*flutuador. coloca um elemento OU seja a tela de login no lado DIREITO*/
+        float: left; /*flutuador. coloca um elemento OU seja a tela de login no lado Esquerdo*/
         width: 50%; /*tela de login em 50%*/
 
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+        font-size: 1.2em;
     }
 }
