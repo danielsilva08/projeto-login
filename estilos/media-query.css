@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+/*VERSÃO PARA TABLET*/
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, #C4A382, #A68160); /*to top = Debaixo para cima*/
+    }
+    section#login {
+        width: 80vw;
+    }
+
+    section#login > div#imagem {
+        float: left;/*flutuador. coloca um elemento OU seja a imagem no lado ESQUERDO*/
+        width: 30%;
+        height: 100%;
+    }
+
+    section#login > div#formulario {
+        float: right; /*flutuador. coloca um elemento OU seja a tela de login no lado DIREITO*/
+        width: 70%;
+    }
+}
+/*DESKTOPS E GRANDES TELAS*/
+@media screen and (min-width: 992px) {
+    body {
+        background-image: linear-gradient(to top, #C4A382, #A68160);/*to top = Debaixo para cima*/
+    }
+
+    section#login {
+    width: 950px;
+    }
+
+    section#login > div#imagem {
+        float: left; /*flutuador. coloca um elemento OU seja a imagem no lado ESQUERDO*/
+        width: 50%; /*imagem em 50%*/
+        height: 100%;
+    }
+
+    sectio#login > div#formulario {
+        float: right; /*flutuador. coloca um elemento OU seja a tela de login no lado DIREITO*/
+        width: 50%; /*tela de login em 50%*/
+
+    }
+}
