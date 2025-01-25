@@ -19,9 +19,10 @@
         float: right; /*flutuador. coloca um elemento OU seja a tela de login no lado DIREITO*/
         width: 70%;
     }
+     
 }
 /*DESKTOPS E GRANDES TELAS*/
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 992px) and (max-width:1200px) {
     body {
         background-image: linear-gradient(to top, #C4A382, #A68160);/*to top = Debaixo para cima*/
     }
@@ -49,4 +50,62 @@
     div#formulario > p {
         font-size: 1.2em;
     }
+
 }
+
+@media screen and (min-width: 1150px) {
+    body {
+        background-image: linear-gradient(to top, #C4A382, #A68160);/*to top = Debaixo para cima*/
+    }
+
+    section#login {
+    width: 1150px;
+    }
+
+    section#login > div#imagem {
+        float: right; /*flutuador. coloca um elemento OU seja a imagem no lado DIREITO*/
+        width: 30%; /*imagem em 50%*/
+        height: 100%;
+    }    
+
+    sectio#login > div#formulario {
+        float: left; /*flutuador. coloca um elemento OU seja a tela de login no lado Esquerdo*/
+        width: 30%; /*tela de login em 50%*/
+        
+
+    }
+
+    div#formulario > h1 {
+        font-size: 2em;
+    }
+
+    div#formulario > p {
+        font-size: 1.2em;
+    }
+    
+    form > div.campo {
+        display: block;
+        width: 70%;
+        height: 40px;
+    }   
+
+    /*formatação do botão entrar*/
+    form > div > input[type=submit]{
+    display: block;/*Posiciona o botão em uma linha sozinho*/
+    font-size: 1em;/*Tamanho de letra padrão*/
+    width: 70%;/*Tamanho total do container*/
+    height: 40px;
+    }
+
+    form > div > a.btn {
+    display: block;
+    text-align: center;
+    font-size: 1em;
+    width: 70%;/*Tamanho total do container*/
+    height: 40px;
+    }
+}
+
+
+
+
