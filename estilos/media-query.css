@@ -82,12 +82,16 @@
     div#formulario > p {
         font-size: 1.2em;
     }
-    
+
     form > div.campo {
         display: block;
         width: 70%;
         height: 40px;
     }   
+
+    div .campo > input {
+        height: 100%;
+    }    
 
     /*formatação do botão entrar*/
     form > div > input[type=submit]{

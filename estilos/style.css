@@ -72,6 +72,36 @@ form > div.campo {
 div.campo > label {
     display: none; /*PARA SUMIR A ESCRITA DO LOGIN E SENHA*/
 }
+
+div .campo > span {
+    
+    font-size: 2em;
+    width: 40px;
+    padding: 5px; 
+   
+}
+
+div .campo > input {
+    background-color: #C4A382;
+    margin-left: 41px;
+    font-size: 1em;
+    width: calc(100% - 40px); /*para o campo imput ficar dentro do outro*/
+    font-size: 1em;
+    height: 100%;
+    transform: translateY(-42px); /*para o campo imput ficar dentro do outro eixo y para cima*/
+    
+    border: 0px;
+    border-radius: 5px;
+    padding: 4px;
+    transform: translateY(-42px); /*para o campo imput ficar dentro do outro eixo y para cima*/
+    
+    border: 0px;
+    border-radius: 5px;
+    padding: 4px;
+    
+    
+}
+
 /*formatação do botão entrar*/
 form > div > input[type=submit]{
     display: block;/*Posiciona o botão em uma linha sozinho*/
